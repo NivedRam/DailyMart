@@ -1,0 +1,21 @@
+lazy loading techniques
+------------------------
+
+module creation 
+
+ng g module modulenamew
+
+-lazy loaded module creation
+ng g moduleName--route moduleName --module rootmoduleName
+
+
+
+code to generate angular pipe
+-------------------------------
+
+ng g pipe pipe_name
+
+BehaviourSubject in angular
+--------------------
+
+rxjs

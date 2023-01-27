@@ -3,14 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SiteLayoutModule } from './site-layout/site-layout.module';
+import{HttpClientModule} from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms';
+import { BookComponent } from './book/book.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BookComponent,
+    AboutusComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SiteLayoutModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
